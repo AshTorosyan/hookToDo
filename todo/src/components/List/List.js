@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const List = () => {
+export const List = (props) => {
   return (
     <ul className={props.className}>{props.children}</ul>
   )
